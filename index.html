@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add/Delete cards by using form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+
+<body>
+    <div class="card">
+        <form >
+            <div class="card__content">
+                <div class="label">
+                    <label for="name">Name</label>
+                </div>
+                <div class="input">
+                    <input type="text" name="name" id="name">
+                </div>
+            </div>
+            <div class="card__content">
+                <div class="label">
+                    <label for="email">Email</label>
+                </div>
+                <div class="input">
+                    <input type="email" name="email" id="email">
+                </div>
+            </div>
+            <div class="card__content">
+                <div class="label">
+                    <label for="phonenumber">Phone Number</label>
+                </div>
+                <div class="input">
+                    <input type="number" name="phonenumber" id="phonenumber">
+                </div>
+            </div>
+            <div class="button" id='button'>
+                <button class='btnForm'>Add Contact</button>
+            </div>
+        </div>
+        <div class="errorMessage" id='errorMessage'></div>
+    </form>
+    <div class="containerFromInput" id="containerFromInput">
+        <div class="contentFromInput" id='contentFromInput'></div>
+    </div>
+</body>
+
+</html>
